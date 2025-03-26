@@ -1,0 +1,41 @@
+/* @media  (max-width: 600px) {
+    .header {
+      width: 100%;
+      height: 100px;
+      padding: 10px 30px;
+    }
+  
+    .header_img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .header {
+      width: 78%;
+      height: 100px;
+      padding: 10px 30px;
+    }
+  
+    .header_img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  /* Katta ekranlar (1024px dan katta) */
+  /* @media (min-width: 1024px) {
+    .header {
+      width: 75%;
+      padding: 10px 40px;
+    }
+  }  */
