@@ -3,9 +3,10 @@ import Sidebar from "./components/Sidebar"
 
 export default function Home() {
   return (
-    <div>
-     <Sidebar />
-     <Header />
+    <div className="body">
+      <Sidebar />
+      <Header />
+
     </div>
   );
 }
