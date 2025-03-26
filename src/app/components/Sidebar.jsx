@@ -3,10 +3,10 @@ import React from 'react'
 const Sidebar = () => {
   return (
     <div>
-        <div className='sidebar'>
+        <div className='Home'>
 
 
-<span>heelo</span>
+
         </div>
     </div>
   )
