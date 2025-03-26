@@ -1,3 +1,5 @@
+import Main from "./Main";
+
 export default function Header() {
   return (
     <>
@@ -17,6 +19,7 @@ export default function Header() {
             </div>
           </div>
         </div>
+        <Main />
       </div>
     </>
   );
