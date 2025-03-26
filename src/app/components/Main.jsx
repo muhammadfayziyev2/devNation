@@ -5,7 +5,7 @@ const Main = () => {
     <div className='main'>
       <div className='main_news'>
       DevNation - dasturlash kurslari
-       <p>DevNation - bu sizga dasturlashni o'rganishda yordam beradigan platforma. Pullik darslardagi ma'lumotlarni <p> bepul olishingiz mumkin. Barchasi bir joyda!</p></p> 
+       <p>DevNation - bu sizga dasturlashni o'rganishda yordam beradigan platforma. Pullik darslardagi ma'lumotlarni </p> 
         </div>
     </div>
   )
