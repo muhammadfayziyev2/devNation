@@ -1,21 +1,21 @@
 @import "tailwindcss";
-* body{
-background-color: rgb(0, 0, 0);
+
+* body {
+  background-color: rgb(0, 0, 0);
 }
+
 .body {
   padding: 10px;
   width: 100%;
   height: 100vh;
-  
+
   display: grid;
   grid-template-columns: 280px auto;
   grid-template-rows: 0px auto;
   grid-template-areas:
     "sidebar header"
-    "sidebar content";
+    "sidebar main";
   height: 100vh;
-
-
 }
 
 .wrap {
@@ -26,7 +26,8 @@ background-color: rgb(0, 0, 0);
   grid-area: sidebar;
   width: 100%;
   height: 100vh;
-  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.126);
+  border-radius: 15px;
 }
 
 .logo {
@@ -57,8 +58,7 @@ background-color: rgb(0, 0, 0);
   justify-content: space-between;
   border-radius: 15px;
   display: flex;
-  background-color: rgba(255, 255, 255, 0.19);
-  /* border: 1px solid rgba(252, 248, 248, 0.743); */
+  background-color: rgba(255, 255, 255, 0.126);
   width: 100%;
   margin-left: 10px;
   height: 80px;
@@ -77,7 +77,6 @@ background-color: rgb(0, 0, 0);
   gap: 18px;
   display: flex;
   align-items: center;
-  /* border: 1px solid white; */
   width: 200px;
 }
 
@@ -119,7 +118,6 @@ background-color: rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
   width: 80px;
   height: 25px;
-  /* border: 1px solid white; */
   cursor: pointer;
   align-items: center;
   display: flex;
