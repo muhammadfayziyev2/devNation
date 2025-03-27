@@ -10,7 +10,6 @@ export default function Header() {
               <img src="logo2.jpg" alt="" className="header_img" />
               <span className="nikename">DevNation</span>
             </div>
-            
             <div className="units">
               <select name="" id="" className="select">
                 <option value="uz" className="option">uz</option>
