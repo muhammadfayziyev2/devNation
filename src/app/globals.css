@@ -202,3 +202,14 @@ margin-right: 25px;
   padding: 7px;
   width: 90%;
 }
+
+.icon_seti{
+  width:20px;
+  cursor: pointer;
+}
+.icons_seti{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 430px;
+}
