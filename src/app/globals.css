@@ -34,7 +34,7 @@
   overflow-y: auto;
   position: sticky;
   width: 18%;;
-  height: calc(100vh - 20px);
+  height: 100%;
  position: fixed;
 }
 
